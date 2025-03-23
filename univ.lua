@@ -219,7 +219,7 @@ Tabs.Main:AddButton({
     Title = "Reload",
     Description = "Reloads the script",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EclipseScripts-RBX/ManuHub/refs/heads/main/Universal.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EclipseScripts-RBX/ManuHub/refs/heads/main/univ.lua"))()
         task.wait(1)
         Fluent:Destroy()
     end
